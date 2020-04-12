@@ -1,7 +1,7 @@
 'use strict'
 
 const { Buffer } = require('buffer')
-const { nanoid } = require('nanoid')
+const { nanoid } = require('nanoid/index')
 const withIs = require('class-is')
 
 const pathSepS = '/'
